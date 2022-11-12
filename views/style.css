@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.page {
+  width: 360px;
+  padding: 1.8% 0 0 ;
+  margin: auto;
+}
+.page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 565px;
+    margin: 0 auto 10px;
+    padding: 45px;
+    /*text-align: center;*/
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+  
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 0;
+}
+  
+body {
+    background-color: #239cc1;
+    background-image: linear-gradient(45deg,#5abad7,#1b68d4);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* @media (max-width: 750px) { */
+    /* .container form{ */
+        /* overflow-y: scroll; */
+    /* } */
+    /* .container form::-webkit-scrollbar{ */
+       /* display: none; */
+    /* } */
+    /* form .fields .input-field{ */
+        /* width: calc(100% / 2 - 15px); */
+    /* } */
+/* } */
+
+/* @media (max-width: 550px) { */
+    /* form .fields .input-field{ */
+        /* width: 100%; */
+    /* } */
+/* } */
+
+body{
+  animation-name: body;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+}
+@keyframes body {
+  from{background-image: linear-gradient(45deg,#43a6c4,#1b68d4);}
+  to{background-image: linear-gradient(45deg,#1b68d4,#3388a1);}
+}
+
+.ui-btn::after
+{
+  background-size: 32px;
+  width: 32px;
+  height: 32px;
+}
